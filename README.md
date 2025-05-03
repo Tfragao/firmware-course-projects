@@ -21,6 +21,7 @@ The projects range from simple C programs to more complex firmware examples, des
 ## Usage
 
 Each project folder contains source code, Makefiles, and README files with instructions on how to build and run the examples.
+<mark style=" yellow">To build a project, typically run: </mark>
 ```bash
-To build a project, typically run:
+
 ```
