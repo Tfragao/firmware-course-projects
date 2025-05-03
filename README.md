@@ -1,2 +1,26 @@
-# firmware-course-projects
-Collection of projects and exercises from a Firmware Engineering course, focusing on C programming, embedded systems, and build automation.
+# Firmware Course Projects
+
+Welcome to the **Firmware Course Projects** repository.
+
+## Overview
+
+This repository contains various projects and exercises related to:
+
+** Firmware development concepts
+** C programming language
+** Makefiles and build automation
+** Embedded systems fundamentals
+
+The projects range from simple C programs to more complex firmware examples, designed to build practical skills in embedded programming and toolchain usage.
+
+## Structure
+
+** `/project1` - C programming exercises
+** `/docs` - Notes and references related to the course
+
+## Usage
+
+Each project folder contains source code, Makefiles, and README files with instructions on how to build and run the examples.
+```bash
+To build a project, typically run:
+```
