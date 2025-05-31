@@ -1,0 +1,32 @@
+Project 1 : calculator in C
+
+Program Overview
+
+The calculator program will:
+1. Prompt the user to enter two numbers.
+2. Ask the user to select an operation (e.g., +, -, *, /)
+3. Perform the requested calculation and display the result.
+4. Handle basic error cases (e.g., division by zero)
+5. Optionally, allow the user to perform multiple calculation in a loop
+
+Design considerations
+* User-Friendly: clear prompts and outputs for ease of use
+* Error Handling: prevents division by zero errors
+* Simplicity: focus on required skills without unnecessary complexety
+* Flexibility: design should be easy to extend (e.g., adding operation)
+* Input validation: ensure the operations is one of the four allowed symbols
+
+Program structure
+1. Main components
+* Variables: two floating-point numbers, an operation character, and a result variable
+* Input Collection: prompt and read two numbers and an operation
+* Operation logic: use conditionals to process the choose operation
+* Output: display the result clearly
+
+2. Flow of execution
+1. Show a welcome message
+2. Collect the first number
+3. Collect the second number
+4. Collect the operation
+5. Calculate and display the result
+6. (optional) Ask if the user wants to repeat.
