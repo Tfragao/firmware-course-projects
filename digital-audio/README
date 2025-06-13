@@ -1,0 +1,24 @@
+Generating Digital Audio
+In this project, you will create a C program that generates a sine wave a fundamental audio signal and saves it as raw PCM (Pulse Code Modulation) data in a file. The output will be a .raw file containing uncompressed auduio samples, which can later be imported into audio software (e.g., Audacity) as PCM data for playback.
+This project simulates how digital audio is created and stored, offering hands-on experience with signal generation and file I/0 in C
+
+Objectives
+    * Generate a sine wave with customizable frequency, amplitude, and duration.
+    * Encode the sine wave as PCM data using a specified sample rate and bit depth.
+    * Write the PCM data to a file in a raw format.
+
+Project Features
+1. User Input: accept parameters like frequency (e.g., 440hz fon an A note), duration (in seconds), and amplitude (volume level)
+2. sine wave generation: use the sin() function from the math library to compute sine wave samples
+3. PCM encoding: convert the sine wave into 16-bit PCM samples (signed integers).
+4. File output: save the PCM data to a .raw file, which can be played back with proper audio tools.
+5. Basic error handling: check for file creation issues and invalid user inputs.
+
+Guidelines
+    * Sine wave calculation: compute samples using the formula: sample = amplitude * sin(2 * PI * frequency * t / sample_rate)
+    where t is the sample index.
+    * PCM conversation: scale the floating-point sine values (-1.0 to 1.0) to 16-bit integers (-32,768 to 32,767).
+
+Sample Output:
+    * A 440 Hz ine wave for 5 seconds at 44.1 kHz sample rate will produce a 441,00-byte file (44,100 samples/sec x 5 sec x 2 bytes/sample for 16-bit mono)
+    * Import the .raw file into Audacity (File > Import > Raw Data, 44.1 kHz, 16 bit PCM, mono) to hear the tone.
